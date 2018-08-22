@@ -67,8 +67,8 @@
 	</div>
 </template>
 <script>
-            import dibu from "../components/dibu"
-                   import user_top from "../components/user_top"
+    import dibu from "../components/dibu"
+    import user_top from "../components/user_top"
     export default {
         data() {
             return {
@@ -85,13 +85,13 @@
                         name: "盈亏统计",
                         icon: "icon-tongji",
                         size: "fz20",
-                        url:""
+                        url:"yingkui"
 
                     }, {
                         name: "交易流水",
                         icon: "icon-navicon-jysz",
                         size: "fz20",
-                        url:""
+                        url:"jiaoyils"
 
                     }, {
                         name: "充值记录",

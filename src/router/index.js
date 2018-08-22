@@ -15,7 +15,10 @@ import zhaunzhang from '@/page/zhaunzhang'
 import caizhongsz from '@/page/caizhongsz'
 import touzxq from '@/page/touzxq'
 import congzhi from '@/page/congzhi'
-    import xiugainicheng from '@/page/xiugainicheng'
+import xiugainicheng from '@/page/xiugainicheng'
+import yingkui from '@/page/yingkui'
+import yinkuixq from '@/page/yinkuixq'
+import jiaoyils from '@/page/jiaoyils'
 Vue.use(Router)
 
 export default new Router({
@@ -99,6 +102,21 @@ export default new Router({
             path: '/xiugainicheng',
             name: 'xiugainicheng',
             component: xiugainicheng
+    },
+        {
+            path: '/yingkui',
+            name: 'yingkui',
+            component: yingkui
+    },
+        {
+            path: '/yinkuixq',
+            name: 'yinkuixq',
+            component: yinkuixq
+    },
+        {
+            path: '/jiaoyils',
+            name: 'jiaoyils',
+            component: jiaoyils
     }
   ]
 })

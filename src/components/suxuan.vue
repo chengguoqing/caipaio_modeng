@@ -7,7 +7,18 @@
         <p class="mt50  z3 fz16">
             高级筛选
         </p>
-            <p class="fz22 mt15 z3">注单日期</p>
+            <section v-if="type_r==2">
+     <p class="fz20 mt15 z3">搜索关联订单</p>
+
+    <p class="pr">
+        <input type="text" placeholder="请输入您要查询的订单号" class="dsf_deert">
+
+        <van-icon name="search" class="dsf_j_de ab fz18"/>
+    </p>
+
+        </section>
+
+            <p class="fz22 mt15 z3">{{time_name||'注单日期'}}</p>
 
             <section class="mui-row mt10">
                 <section class="dfs_jhdf" @tap="show=true;is_der=1">
@@ -20,6 +31,7 @@
 
             </section>
 
+            <section v-if="type_r!=1">
             <section v-for="sd in sd_ddrr">
             <p class="fz16 z3 mt15">{{sd.title}}</p>
             <section class="pr" @tap="dsf_drer(sd)">
@@ -28,7 +40,7 @@
             </section>
 
             </section>
-
+</section>
 
             <p class="mt20 red fz14">*点击阴影关闭窗口</p>
             <p>
@@ -74,6 +86,10 @@
 <script>
     import base from "../js/base.js"
     export default {
+        props: {
+            time_name:'',
+            type_r:"",//1彩票盈亏
+        },
         data() {
             return {
                 time_sdf_a: "2018/8/04",
@@ -163,6 +179,24 @@
             setTimeout(a => {
                 this.df_jh_de = "act"
             }, 200);
+
+            if(this.type_r==2){
+                   this.sd_ddrr= [{
+                    title: "交易类型",
+                    id: 1,
+                    value: "全部类型",
+                    date_r: [{
+                        name: "全部类型1"
+                    }, {
+                        name: "全部类型2"
+                    }, {
+                        name: "全部类型3"
+                    }, {
+                        name: "全部类型4"
+                    }]
+                }]
+            }
+
         },
     }
 

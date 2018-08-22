@@ -7,7 +7,9 @@
              <van-icon name="arrow-left" class=" sd_jh_eert ab cf" @click="$router.back(-1)" v-if="$route.query.type==1"/>
 
                        <section class="df_jh_deer w100">
-                  <span @tap="is_sdrr=false"> 彩票投注 <i class="dx icon-down"></i></span>
+               <span @tap="is_sdrr?is_sdrr=false:is_sdrr=true"> 彩票投注
+                      <i class="dx icon-down"></i>
+                    </span>
                 </section>
 
 
@@ -105,9 +107,6 @@
         top: 50px;
     }
 
-    .dsf_hjh_se.act {
-        background: #FB3233;
-        color: #fff
-    }
+
 
 </style>
