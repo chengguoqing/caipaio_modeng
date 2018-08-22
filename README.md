@@ -1,6 +1,6 @@
 # caipiao_er
 
-> A Vue.js project
+> 独行工匠
 
 ## Build Setup
 
