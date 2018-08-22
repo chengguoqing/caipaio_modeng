@@ -1,0 +1,115 @@
+.van-ellipsis {
+    font-size: 16px !important;
+}
+
+body {
+    padding-bottom: 80px
+}
+
+.sd_jh_df {
+    padding-top: 30px;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    background: #1C202B
+}
+
+.dsf_jh_deer {
+    padding-top: 60px;
+}
+
+.df_jh_deer {
+    color: #fff;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 20%;
+    float: left;
+}
+
+.df_jh_deer span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.df_jh_deer.act span {
+    border-bottom: 2px solid #EB282D;
+    padding-bottom: 10px;
+}
+
+.kefwey {
+    width: 25px;
+    position: absolute;
+    top: -2px;
+}
+
+.w100 {
+    width: 100%
+}
+
+.sd_jh_eert{
+    position: absolute;
+    right: 10px;
+}
+
+
+
+.van-tabbar--fixed{
+    z-index: 100000 !important
+}
+
+.sd_jh_eert.ab{
+    right: inherit;
+    left: 10px;
+}
+
+
+
+  .df_hg_deert {
+        background: #FB3233;
+        color: #fff;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+    }
+.df_hg_deert.ab{
+     width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 5px;
+        font-size: 18px !important;
+}
+
+.van-switch--on{
+    background: #5755D6
+}
+
+
+
+    .dsf_jh_deret.ab{
+        color: #999
+    }
+    .dsf_jh_deret{
+        text-indent: 0px;
+        height: 45px !important;
+        font-size: 16px;
+    }
+
+    .shsih_s {
+        width: 65px;
+    }
+
+    .shsih_s.ab {
+        border: 1px solid #EAEAEA;
+        background: #F2F2F2;
+        height: 65px;
+        border-radius: 50%;
+        margin: auto;
+        line-height: 65px;
+    }
+
