@@ -13,9 +13,9 @@
 
                 </section>
                <van-icon name="arrow-left" class=" sd_jh_eert ab cf" @click="$router.back(-1)"/>
+ 
 
-
-        </section>
+        </section> 
 
         <section class="dsf_jh_deer" v-if="is_sdrr">
 

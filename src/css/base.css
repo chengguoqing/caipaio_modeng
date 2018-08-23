@@ -1126,11 +1126,13 @@ a:hover {
     top: 1px;
 }
 
-.mui-input-row input {
+.mui-input-row input,.mui-input-row .input {
     text-indent: 0px;
     width: 76%!important
 }
-
+.mui-input-row .input input{
+    width: 100% !important
+}
 .mui-content {
     background: 0 0
 }
@@ -1163,7 +1165,7 @@ a:hover {
     .mui-input-row label {
         width: 26%
     }
-    .mui-input-row input {
+    .mui-input-row input, .mui-input-row .input  {
         width: 70%!important
     }
     .fz20 {

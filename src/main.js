@@ -25,6 +25,13 @@ import scroll from 'vue-seamless-scroll'
 import { Collapse, CollapseItem } from 'vant';
 import { Field } from 'vant';
 
+import { RadioGroup, Radio } from 'vant';
+import { Slider } from 'vant';
+
+Vue.use(Slider);
+Vue.use(RadioGroup);
+Vue.use(Radio);
+
 Vue.use(Field);
 Vue.use(Collapse).use(CollapseItem);
 Vue.use(scroll)

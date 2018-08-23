@@ -97,19 +97,19 @@
                         name: "充值记录",
                         icon: "icon-chongzhi1",
                         size: "fz20",
-                        url:""
+                        url:"czjl_user"
 
                     }, {
                         name: "提现记录",
                         icon: "icon-tixian1",
                         size: "fz20",
-                        url:""
+                        url:"tixianjl"
 
                     }, {
                         name: "钱包互转记录",
                         icon: "icon-qianbao",
                         size: "fz20",
-                        url:""
+                        url:"qianbaohz"
 
                     }]
                 },{
@@ -119,7 +119,7 @@
                         name: "注册下级",
                         icon: "icon-zhucetianjiahaoyou",
                         size: "fz20",
-                        url:""
+                        url:"zucexiaji"
 
                     }, {
                         name: "下级管理",

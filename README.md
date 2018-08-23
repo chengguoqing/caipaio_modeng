@@ -1,6 +1,6 @@
 # caipiao_er
 
-> 独行工匠 程国庆
+> 独行工匠 
 
 ## Build Setup
 

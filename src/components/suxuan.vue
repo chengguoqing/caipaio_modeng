@@ -88,8 +88,9 @@
     export default {
         props: {
             time_name:'',
-            type_r:"",//1彩票盈亏
+            type_r:"",//1彩票盈亏 2交易流水,3充值记录 4,钱包互转
         },
+        
         data() {
             return {
                 time_sdf_a: "2018/8/04",
@@ -174,7 +175,7 @@
                 this.sdf_fer.value = e.name
 
             }
-        },
+        }, 
         mounted() {
             setTimeout(a => {
                 this.df_jh_de = "act"
@@ -196,6 +197,57 @@
                     }]
                 }]
             }
+            
+                if(this.type_r==3){
+                   this.sd_ddrr= [{
+                    title: "订单状态",
+                    id: 1,
+                    value: "全部",
+                    date_r: [{
+                        name: "全部"
+                    }, {
+                        name: "全部1"
+                    }, {
+                        name: "全部2"
+                    }, {
+                        name: "全部3"
+                    }]
+                }]
+            }
+            
+            
+                if(this.type_r==4){
+                   this.sd_ddrr= [{
+                    title: "转出钱包",
+                    id: 1,
+                    value: "全部",
+                    date_r: [{
+                        name: "全部"
+                    }, {
+                        name: "全部1"
+                    }]
+                },{
+                    title: "转入钱包",
+                    id: 1,
+                    value: "全部",
+                    date_r: [{
+                        name: "全部"
+                    }, {
+                        name: "全部1"
+                    }]
+                },{
+                    title: "状态",
+                    id: 1,
+                    value: "全部",
+                    date_r: [{
+                        name: "全部"
+                    }, {
+                        name: "全部1"
+                    }]
+                }]
+            }
+            
+            
 
         },
     }

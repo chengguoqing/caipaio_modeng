@@ -19,6 +19,13 @@ import xiugainicheng from '@/page/xiugainicheng'
 import yingkui from '@/page/yingkui'
 import yinkuixq from '@/page/yinkuixq'
 import jiaoyils from '@/page/jiaoyils'
+import czjl_user from '@/page/czjl_user'
+import czxq from '@/page/czxq'
+import tixianjl from '@/page/tixianjl'
+import qianbaohz from '@/page/qianbaohz'
+import zucexiaji from '@/page/zucexiaji'
+
+import test from '@/page/test'
 Vue.use(Router)
 
 export default new Router({
@@ -117,6 +124,36 @@ export default new Router({
             path: '/jiaoyils',
             name: 'jiaoyils',
             component: jiaoyils
+    },
+        {
+            path: '/test',
+            name: 'test',
+            component: test
+    },
+        {
+            path: '/czjl_user',
+            name: 'czjl_user',
+            component: czjl_user
+    },
+        {
+            path: '/czxq',
+            name: 'czxq',
+            component: czxq
+    },
+        {
+            path: '/tixianjl',
+            name: 'tixianjl',
+            component: tixianjl
+    },
+        {
+            path: '/qianbaohz',
+            name: 'qianbaohz',
+            component: qianbaohz
+    },
+        {
+            path: '/zucexiaji',
+            name: 'zucexiaji',
+            component: zucexiaji
     }
   ]
 })
