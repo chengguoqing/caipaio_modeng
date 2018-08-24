@@ -28,6 +28,14 @@ import { Field } from 'vant';
 import { RadioGroup, Radio } from 'vant';
 import { Slider } from 'vant';
 
+
+import { Actionsheet } from 'vant';
+import { Dialog } from 'vant';
+
+Vue.use(Dialog);
+Vue.use(Actionsheet);
+
+
 Vue.use(Slider);
 Vue.use(RadioGroup);
 Vue.use(Radio);

@@ -24,6 +24,7 @@ import czxq from '@/page/czxq'
 import tixianjl from '@/page/tixianjl'
 import qianbaohz from '@/page/qianbaohz'
 import zucexiaji from '@/page/zucexiaji'
+import xiajigl from '@/page/xiajigl'
 
 import test from '@/page/test'
 Vue.use(Router)
@@ -154,6 +155,11 @@ export default new Router({
             path: '/zucexiaji',
             name: 'zucexiaji',
             component: zucexiaji
+    },
+        {
+            path: '/xiajigl',
+            name: 'xiajigl',
+            component: xiajigl
     }
   ]
 })

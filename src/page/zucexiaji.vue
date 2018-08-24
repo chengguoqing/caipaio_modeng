@@ -58,18 +58,19 @@
         </form>
         
         <section class="pd bgff pt10 z3 ">
-        <p class="z3 fz14">设置用户返点 <span class="ye">{{sdf_dsf}}%</span></p>
+        <p class="z3 fz14">设置用户返点 <span class="ye"> {{value/100*sdf_dsf|numFilter}}%</span></p>
         
             <section class="mt10 pm10 mui-row">
         <section class="mui-col-xs-2">
-    <i class="dx icon-jian-tianchong cz fz22 red"></i>
+    <i class="dx icon-jian-tianchong cz fz22 red" @click="add_sdrt(0)"></i>
         </section>
                       <section class="mui-col-xs-8 pt10">
-<van-slider v-model="value" @change="change_dr"/>
+<van-slider v-model="value"/>
+
         </section>
                 
                       <section class="mui-col-xs-2 tr">
-    <i class="dx icon-add cz fz22 red"></i>
+    <i class="dx icon-add cz fz22 red" @click="add_sdrt(1)"></i>
         </section>
         </section>
             
@@ -88,33 +89,56 @@
     export default {
         data() {
             return {
-                radio:'1',
-                value:0,
-                sdf_dsf:0,
+                radio: '1',
+                value: 0,
+                sdf_dsf: 0.28,
             }
         },
         components: {
 
         },
         methods: {
-            change_dr(){
-                console.log(this.value);
+
+            add_sdrt(ty) {
+                if (ty == 1) {
+                    if (this.value < 100) {
+                        this.value += 10
+                    }
+                } else {
+                    if (this.value > 0) {
+                        this.value -= 10
+                    }
+                }
+
+
             }
         },
         mounted() {
 
         },
+        filters: {
+
+            numFilter(value) {
+
+                let realVal = Number(value).toFixed(2)
+
+                return Number(realVal)
+
+            }
+        }
     }
 
 </script>
 <style scoped>
-    .dfdfdf_er{
-       padding-top: 8px;
+    .dfdfdf_er {
+        padding-top: 8px;
     }
-    .dsf_e_rdee{
+
+    .dsf_e_rdee {
         height: auto
     }
-    .df_jh_deert{
+
+    .df_jh_deert {
         border: 1px solid #DADADD;
         height: 35px;
         font-size: 16px;

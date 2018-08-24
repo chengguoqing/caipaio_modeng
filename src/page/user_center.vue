@@ -125,7 +125,7 @@
                         name: "下级管理",
                         icon: "icon-structurehierar",
                         size: "fz20",
-                        url:""
+                        url:"xiajigl"
 
                     }, {
                         name: "推广二维码",
