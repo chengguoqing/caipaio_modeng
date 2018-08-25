@@ -131,19 +131,19 @@
                         name: "推广二维码",
                         icon: "icon-erweima",
                         size: "fz20",
-                        url:""
+                        url:"tuiguangerweima"
 
                     }, {
                         name: "团队报表",
                         icon: "icon-tuanduichengyuan",
                         size: "fz20",
-                        url:""
+                        url:"tuanduibao"
 
                     }, {
                         name: "日度报表",
                         icon: "icon-rili",
                         size: "fz20",
-                        url:""
+                        url:"ridubb"
 
                     }, {
                         name: "日工资管理",

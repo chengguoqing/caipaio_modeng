@@ -17,6 +17,19 @@
     </p>
 
         </section>
+            
+                <section v-if="type_r==5">
+     <p class="fz18 mt15 z3">搜索会员名</p>
+
+    <p class="pr">
+        <input type="text" placeholder="请输入您要查询的订单号" class="dsf_deert">
+
+        <van-icon name="search" class="dsf_j_de ab fz18"/>
+    </p>
+
+        </section>
+            
+            
 
             <p class="fz22 mt15 z3">{{time_name||'注单日期'}}</p>
 
@@ -248,7 +261,20 @@
             }
             
             
-
+     if(this.type_r==5){
+                   this.sd_ddrr= [{
+                    title: "排序",
+                    id: 1,
+                    value: "排序",
+                    date_r: [{
+                        name: "排序"
+                    }, {
+                        name: "排序2"
+                    }]
+                }]
+            }
+            
+            
         },
     }
 

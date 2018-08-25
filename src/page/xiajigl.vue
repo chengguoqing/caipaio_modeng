@@ -27,11 +27,13 @@
                     <span class="yj sd_dert cz ml5"></span>
     </van-cell>
 
-    <van-cell  is-link @click="show=true">
+    <van-cell  is-link >
+        <section @click="show=true">
         <p>2018-08-22 00:04 31 <span class="fr">返点：<span class="z3">1.4%</span></span></p>
         <p>
         今日彩票活跃数:<span class="z3">0</span>
         </p>
+            </section>
     </van-cell>
             </van-cell-group>
 
@@ -61,7 +63,7 @@ cancel-button-text="关闭"
         不活跃天数:<span class="red">2</span>
     </p>
     <section class="bgff  mui-row cen">
-        <section class="mui-col-xs-6 brm pt20 pm10">
+        <section class="mui-col-xs-6 brm pt20 pm10"> 
         <p class="z3 fz15">账户余额</p>
         <p class="mt5">0</p>
     </section>

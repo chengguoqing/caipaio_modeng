@@ -25,6 +25,12 @@ import tixianjl from '@/page/tixianjl'
 import qianbaohz from '@/page/qianbaohz'
 import zucexiaji from '@/page/zucexiaji'
 import xiajigl from '@/page/xiajigl'
+import tuiguangerweima from '@/page/tuiguangerweima'
+import add_qr from '@/page/add_qr'
+import tuanduibao from '@/page/tuanduibao'
+import cpxq from '@/page/cpxq'
+import ridubb from '@/page/ridubb'
+
 
 import test from '@/page/test'
 Vue.use(Router)
@@ -160,6 +166,31 @@ export default new Router({
             path: '/xiajigl',
             name: 'xiajigl',
             component: xiajigl
+    },
+        {
+            path: '/tuiguangerweima',
+            name: 'tuiguangerweima',
+            component: tuiguangerweima
+    },
+        {
+            path: '/add_qr',
+            name: 'add_qr',
+            component: add_qr
+    },
+        {
+            path: '/tuanduibao',
+            name: 'tuanduibao',
+            component: tuanduibao
+    },
+        {
+            path: '/cpxq',
+            name: 'cpxq',
+            component: cpxq
+    },
+        {
+            path: '/ridubb',
+            name: 'ridubb',
+            component: ridubb
     }
   ]
 })
