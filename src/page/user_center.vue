@@ -7,7 +7,7 @@
                   <span> 我的账户</span>
                 </section>
 
-                         <i class="dx icon-liaotianduihua cf sd_jh_eert ab fz20"  ></i>
+                <i class="dx icon-liaotianduihua cf sd_jh_eert ab fz20"  @click="hf('wodexx')"></i>
                 <i class="dx icon-shezhi cf sd_jh_eert fz20" @tap="hf('shezhi')" ></i>
 
         </section>
@@ -149,21 +149,21 @@
                         name: "日工资管理",
                         icon: "icon-icon-test",
                         size: "fz20",
-                        url:""
+                        url:"rigongzims?type_r=0"
 
                     }, {
                         name: "分红管理",
                         icon: "icon-dabingtu",
                         size: "fz20",
-                        url:""
+                        url:"rigongzims?type_r=1"
 
                     }, {
                         name: "私返管理",
                         icon: "icon-chongzhi",
                         size: "fz20",
-                        url:""
+                        url:"rigongzims?type_r=2"
 
-                    }]
+                    }] 
                 },{
                     title: "账户中心",
                     ty: "ac",
@@ -171,13 +171,13 @@
                         name: "绑定银行卡",
                         icon: "icon-yinxingqia",
                         size: "fz20",
-                        url:""
+                        url:"yhk_index"
 
                     }, {
                         name: "账户安全",
                         icon: "icon-anquan",
                         size: "fz20",
-                        url:""
+                        url:"zhanghuaq"
 
                     }]
                 }]

@@ -30,6 +30,34 @@ import add_qr from '@/page/add_qr'
 import tuanduibao from '@/page/tuanduibao'
 import cpxq from '@/page/cpxq'
 import ridubb from '@/page/ridubb'
+import rigongzims from '@/page/rigongzi/rigongzims'
+import wodeqiyue from '@/page/rigongzi/wodeqiyue'
+import wodeqiyue_xq from '@/page/rigongzi/wodeqiyue_xq'
+import qiyuesm from '@/page/rigongzi/qiyuesm'
+import woderigongzi from '@/page/rigongzi/woderigongzi'
+import rigongzixq from '@/page/rigongzi/rigongzixq'
+import xiajiqiyue from '@/page/rigongzi/xiajiqiyue'
+import cjqy from '@/page/rigongzi/cjqy'
+import tianjiaguize from '@/page/rigongzi/tianjiaguize'
+import qiyue_xq from '@/page/rigongzi/qiyue_xq'
+import xiajirgz from '@/page/rigongzi/xiajirgz'
+import wodofh from '@/page/rigongzi/wodofh'
+import fenhongxq from '@/page/rigongzi/fenhongxq'
+import wodeshifan from '@/page/rigongzi/wodeshifan'
+import yhk_index from '@/page/yhk/yhk_index'
+import zhanghuaq from '@/page/anquan/zhanghuaq'
+import bangdingyx from '@/page/anquan/bangdingyx'
+import yifasongyx from '@/page/anquan/yifasongyx'
+import zijinmima from '@/page/anquan/zijinmima'
+import mibaowenti from '@/page/anquan/mibaowenti'
+import xgdlmima from '@/page/anquan/xgdlmima'
+import wodexx from '@/page/xiaoxi/wodexx'
+import xiao_gonggao from '@/page/xiaoxi/gonggao'
+import wdshangji from '@/page/xiaoxi/wdshangji'
+import lianxiren from '@/page/xiaoxi/lianxiren'
+import shousuo from '@/page/xiaoxi/shousuo'
+import xuanhao from '@/page/xuanhao/xuanhao'
+import touzhujilu from '@/page/xuanhao/touzhujilu'
 
 
 import test from '@/page/test'
@@ -191,6 +219,146 @@ export default new Router({
             path: '/ridubb',
             name: 'ridubb',
             component: ridubb
+    },
+        {
+            path: '/rigongzims',
+            name: 'rigongzims',
+            component: rigongzims
+    },
+        {
+            path: '/wodeqiyue',
+            name: 'wodeqiyue',
+            component: wodeqiyue
+    },
+        {
+            path: '/wodeqiyue_xq',
+            name: 'wodeqiyue_xq',
+            component: wodeqiyue_xq
+    },
+        {
+            path: '/qiyuesm',
+            name: 'qiyuesm',
+            component: qiyuesm
+    },
+        {
+            path: '/woderigongzi',
+            name: 'woderigongzi',
+            component: woderigongzi
+    },
+        {
+            path: '/rigongzixq',
+            name: 'rigongzixq',
+            component: rigongzixq
+    },
+        {
+            path: '/xiajiqiyue',
+            name: 'xiajiqiyue',
+            component: xiajiqiyue
+    },
+        {
+            path: '/cjqy',
+            name: 'cjqy',
+            component: cjqy
+    },
+        {
+            path: '/tianjiaguize',
+            name: 'tianjiaguize',
+            component: tianjiaguize
+    },
+        {
+            path: '/qiyue_xq',
+            name: 'qiyue_xq',
+            component: qiyue_xq
+    },
+        {
+            path: '/xiajirgz',
+            name: 'xiajirgz',
+            component: xiajirgz
+    },
+        {
+            path: '/wodofh',
+            name: 'wodofh',
+            component: wodofh
+    },
+        {
+            path: '/fenhongxq',
+            name: 'fenhongxq',
+            component: fenhongxq
+    },
+        {
+            path: '/wodeshifan',
+            name: 'wodeshifan',
+            component: wodeshifan
+    },
+        {
+            path: '/yhk_index',
+            name: 'yhk_index',
+            component: yhk_index
+    },
+        {
+            path: '/zhanghuaq',
+            name: 'zhanghuaq',
+            component: zhanghuaq
+    },
+        {
+            path: '/bangdingyx',
+            name: 'bangdingyx',
+            component: bangdingyx
+    },
+        {
+            path: '/yifasongyx',
+            name: 'yifasongyx',
+            component: yifasongyx
+    },
+        {
+            path: '/zijinmima',
+            name: 'zijinmima',
+            component: zijinmima
+    },
+        {
+            path: '/mibaowenti',
+            name: 'mibaowenti',
+            component: mibaowenti
+    },
+        {
+            path: '/xgdlmima',
+            name: 'xgdlmima',
+            component: xgdlmima
+    },
+        {
+            path: '/wodexx',
+            name: 'wodexx',
+            component: wodexx
+    },
+        {
+            path: '/xiao_gonggao',
+            name: 'xiao_gonggao',
+            component: xiao_gonggao
+    },
+        {
+            path: '/wdshangji',
+            name: 'wdshangji',
+            component: wdshangji
+    },
+        {
+            path: '/lianxiren',
+            name: 'lianxiren',
+            component: lianxiren
+    },
+        {
+            path: '/shousuo',
+            name: 'shousuo',
+            component: shousuo
+    },
+        {
+            path: '/xuanhao',
+            name: 'xuanhao',
+            component: xuanhao
+    },
+        {
+            path: '/touzhujilu',
+            name: 'touzhujilu',
+            component: touzhujilu
     }
   ]
 })

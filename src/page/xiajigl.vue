@@ -53,7 +53,7 @@
         <van-dialog
   v-model="show_er"
   :show-confirm-button="false"
- show-cancel-button
+ show-cancel-button 
 cancel-button-text="关闭"
 >
 
@@ -172,7 +172,7 @@ cancel-button-text="关闭"
                 show: false, //下拉
                 show_er: false, //详情
                 show_san: false, //返点
-                dang_sd:1.5,
+                dang_sd: 1.5,
                 actions: [{
                     name: '详情',
                     id: 0
@@ -243,7 +243,7 @@ cancel-button-text="关闭"
                 if (e.id == 0) { //详情
                     this.show_er = true
                 } else if (e.id == 1) { //设置返点
-                    this.show_san=true
+                    this.show_san = true
                 }
             },
             xz_ddf(sd) {
@@ -251,7 +251,7 @@ cancel-button-text="关闭"
                     a.cls = ""
                 })
                 sd.cls = "act"
-                this.dang_sd=sd.name
+                this.dang_sd = sd.name
             }
         },
         mounted() {

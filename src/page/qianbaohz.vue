@@ -22,12 +22,13 @@
         
         <section class="dsf_jh_deer">
                 
-           
+            
           
           
         </section> 
 	 <suxuan v-if="is_sx_d" @closer="is_sx_d=false" time_name="转账日期" type_r="4"></suxuan>
- <myjl></myjl>
+ 
+        <myjl></myjl>
 	</div>
 </template> 
 <script>

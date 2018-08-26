@@ -15,7 +15,7 @@
 
                 <i class="dx icon-shaixuan cf sd_jh_eert fz20"  @tap="is_sx_d=true"></i>
 
-        </section>
+        </section> 
 
         <section class="dsf_jh_deer" v-if="is_sdrr">
 

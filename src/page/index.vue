@@ -44,7 +44,7 @@
   <van-tab v-for="index in sd_jh_dff" :title="index.name">
 
       <section class="mui-row pm15">
-        <section class="mui-col-xs-4 cen pt15 " v-for="sd in 6">
+        <section class="mui-col-xs-4 cen pt15 " v-for="sd in 6" @tap="hf('xuanhao')">
                 <img src="../assets/img/shsih_s.png" class="shsih_s">
             <p class="z3 fz16 mt2">日本30秒</p>
         </section>

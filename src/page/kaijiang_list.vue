@@ -23,7 +23,7 @@
     </section>
 
         <section class="like_deer pd pt5 pm5 btm">
-    <button class="mui-btn-red w100 fz16 h100">立刻投注</button>
+    <button class="mui-btn-red w100 fz16 h100" @tap="hf('xuanhao')">立刻投注</button>
         </section>
 
 	</div>

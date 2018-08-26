@@ -41,7 +41,7 @@
             
         
 	</section>
-        
+         
         
         <section v-if="type_r>1" class="btm dsf_h_dre pt5 pm10 btm pd bgff">
             <a class="mui-btn mui-btn-red w100 fz16 h100" @tap="hf('touzhu?type=1')">查看投注记录</a>
@@ -69,12 +69,6 @@
 
 </script>
 <style scoped>
-    .dsf_h_dre{
-        position: fixed;
-        left: 0px;
-        bottom: 0px;
-        z-index: 1000;
-        width: 100%;
-    }
+ 
 
 </style>

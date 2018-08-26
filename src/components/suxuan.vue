@@ -18,7 +18,7 @@
 
         </section>
             
-                <section v-if="type_r==5">
+                <section v-if="type_r==5||type_r==6">
      <p class="fz18 mt15 z3">搜索会员名</p>
 
     <p class="pr">
@@ -31,7 +31,7 @@
             
             
 
-            <p class="fz22 mt15 z3">{{time_name||'注单日期'}}</p>
+            <p class="fz20 mt15 z3">{{time_name||'注单日期'}}</p>
 
             <section class="mui-row mt10">
                 <section class="dfs_jhdf" @tap="show=true;is_der=1">
@@ -62,7 +62,7 @@
 
 
     </section>
-
+ 
 
         <van-popup v-model="show" position="bottom" :overlay="false">
 
@@ -270,6 +270,40 @@
                         name: "排序"
                     }, {
                         name: "排序2"
+                    }]
+                }]
+            }
+                 if(this.type_r==6){
+                   this.sd_ddrr= [{
+                    title: "契约状态",
+                    id: 1,
+                    value: "全部",
+                    date_r: [{
+                        name: "全部"
+                    }, {
+                        name: "全部2"
+                    }]
+                }]
+            }
+            
+                if(this.type_r==7){
+                   this.sd_ddrr= [{
+                    title: "日工资状态",
+                    id: 1,
+                    value: "全部",
+                    date_r: [{
+                        name: "全部"
+                    }, {
+                        name: "全部2"
+                    }]
+                },{
+                    title: "排序",
+                    id: 1,
+                    value: "按时间从近到远",
+                    date_r: [{
+                        name: "按时间从近到远"
+                    }, {
+                        name: "按时间从元到近"
                     }]
                 }]
             }

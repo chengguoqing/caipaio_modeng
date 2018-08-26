@@ -31,7 +31,13 @@ import { Slider } from 'vant';
 
 import { Actionsheet } from 'vant';
 import { Dialog } from 'vant';
+import { NoticeBar } from 'vant';
+import { Checkbox, CheckboxGroup } from 'vant';
+import { Stepper } from 'vant';
 
+Vue.use(Stepper);
+Vue.use(Checkbox).use(CheckboxGroup);
+Vue.use(NoticeBar);
 Vue.use(Dialog);
 Vue.use(Actionsheet);
 
